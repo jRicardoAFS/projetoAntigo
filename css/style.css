@@ -1,0 +1,173 @@
+body {
+    margin             : 0px;
+    background-image   : url('../img/fundo_site.jpg');
+    background-repeat  : inherit;
+    background-size    : cover;
+    background-position: center center;
+    height             : 720px;
+    width              : 100%;
+    text-align         : center;
+
+}
+
+h1 {
+    padding-top: 40px;
+    color      : #fff;
+    font-size  : 70px;
+    text-align : center;
+}
+
+p {
+    color     : #fff;
+    text-align: center;
+    margin    : 0px 110px;
+    font-size : 20px;
+}
+
+header {
+    background-color: #000;
+    color           : #fff;
+    width           : 100%;
+    height          : 60px;
+    text-align      : right;
+    font-size       : 20px;
+    color           : #000;
+    Display         : grid;
+    Place-items     : center right;
+
+}
+
+ul li {
+    padding: 18px 30px;
+}
+
+ul li a:link {
+    margin         : 15px;
+    text-decoration: none;
+    color          : #fff;
+    padding        : 4px;
+}
+
+ul li a:hover {
+    color           : #fff;
+    background-color: #303030;
+}
+
+ul li a::before {
+    color: #fff;
+}
+
+ul li a:visited {
+    color: #fff;
+}
+
+li {
+    display: inline;
+}
+
+button {
+    background-color: #191970;
+    border-style    : inherit;
+    height          : 40px;
+    width           : 150px;
+    color           : #fff;
+    font-size       : medium;
+
+}
+
+.lig {
+    background-color: #836FFF;
+    padding         : 18px 0px;
+}
+
+/*ajuste para tablet*/
+@media screen and (max-width:860px) {
+
+
+
+    ul li {
+        font-size: medium;
+        height   : 70px;
+        width    : 100%;
+        margin   : 0px;
+        padding  : 3px;
+
+
+    }
+
+
+
+    body {
+        background-image   : url(../img/fundo_site.jpg);
+        background-repeat  : no-repeat;
+        background-size    : cover;
+        background-position: center center;
+        height             : 1000px;
+
+    }
+
+    h1 {
+        font-size: 50px;
+    }
+
+    p {
+        font-size: medium;
+    }
+
+    .lig {
+        visibility: hidden;
+    }
+
+    footer {
+        height: 50px;
+    }
+}
+
+/*ajuste para celular*/
+@media screen and (max-width: 390px) {
+
+    header nav ul li {
+        font-size : medium;
+        height    : 100px;
+        width     : 100%;
+        margin    : 0px;
+        padding   : 0px;
+        display:inline-flex ;
+
+    }
+
+
+
+    body {
+        background-image   : url(../img/fundo_site.jpg);
+        background-repeat  : no-repeat;
+        background-size    : cover;
+        background-position: center center;
+        height             : 700px;
+        text-align: end;
+
+    }
+
+    h1 {
+        font-size: 20px;
+        text-align: end;
+}
+
+    p {
+        font-size: medium;
+        margin   : 0px;
+        text-align: end;
+        padding-left: 100px;
+    }
+
+    .lig {
+        visibility: hidden;
+    }
+
+    footer {
+        height: 50px;
+    }
+
+
+
+}
